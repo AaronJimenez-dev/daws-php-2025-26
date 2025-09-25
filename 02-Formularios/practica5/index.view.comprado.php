@@ -16,17 +16,17 @@
         <h1>Detalle de la compra:</h1>
         <ul>
             <?php
-                if ($smg > 0):
+                if (compradoSmg($smg)):
                 ?>
                 <li>Super Mario Galaxy 1 + 2 (<?= $smg?>)</li>
                 <?php
                 endif;
-                if ($mkw > 0):
+                if (compradoMkw($mkw)):
                 ?>
                 <li>Super Mario Kart Workld (<?= $mkw?>)</li>
                 <?php
                 endif;
-                if ($cp2077 > 0):
+                if (compradoCp2077($cp2077)):
                 ?>
                 <li>CyberPunk 2077 (<?= $cp2077?>)</li>
                 <?php

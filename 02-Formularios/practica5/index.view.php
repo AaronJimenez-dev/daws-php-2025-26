@@ -7,6 +7,7 @@
 </head>
 <body>
     <form action="index.php" method="post">
+        <h1>Catálogo de productos</h1>
         <table>
             <tr>
                 <th>Nombre</th>

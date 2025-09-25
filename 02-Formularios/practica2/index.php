@@ -23,5 +23,8 @@
                 break;
         endswitch;
     }
+    function operacionNoPosible($operacion,$numero2){
+        return $operacion == "divi" && $numero2 == 0;
+    }
     require 'index.view.php';
 ?>

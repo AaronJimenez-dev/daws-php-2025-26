@@ -8,7 +8,7 @@
 <body>
     <?php
         if ($datos):
-            if($operacion == "divi" && $numero2 == 0):
+            if(operacionNoPosible($operacion,$numero2)):
     ?>
             <p><b>ERROR: Se ha intentado dividir entre 0.</b></p>
         <?php else:?>

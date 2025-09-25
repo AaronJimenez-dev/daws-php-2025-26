@@ -21,6 +21,15 @@
             $tcp = $cp2077 * $juegos["cp2077"];
             return $tsmg + $tmkw + $tcp;
         }
+        function compradoSmg($smg){
+            return $smg > 0;
+        }
+        function compradoMkw($mkw){
+            return $mkw > 0;
+        }
+        function compradoCp2077($cp2077){
+            return $cp2077 > 0;
+        }
         require 'index.view.comprado.php';
     else:
         require 'index.view.php';

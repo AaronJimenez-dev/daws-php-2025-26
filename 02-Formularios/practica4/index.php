@@ -11,6 +11,7 @@
             "contraseña" => "54321"
         ]
     ];
+    $correctos = false;
     if (!isset($_POST["user"])):
         $datos = false;
     else: 
